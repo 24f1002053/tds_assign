@@ -11,4 +11,4 @@ jobs:
     steps:
       # This is the exact step the assignment requires
       - name: 24f1002053@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+        run: echo "Hello, world"
