@@ -1,0 +1,14 @@
+name: Assignment Action
+
+# This tells the action to trigger whenever new code is pushed
+on: [push]
+
+jobs:
+  test:
+    # This specifies the type of computer the robot will use
+    runs-on: ubuntu-latest
+    
+    steps:
+      # This is the exact step the assignment requires
+      - name: 24f1002053@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
